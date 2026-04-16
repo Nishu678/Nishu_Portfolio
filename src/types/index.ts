@@ -15,7 +15,9 @@ export interface Project {
   image: string;
   tags: string[];
   demoUrl?: string;
-  githubUrl?: string;
+  // githubUrl?: string;
+  githubFrontend?: string;
+  githubBackend?: string;
   featured?: boolean;
   category?: 'web' | 'dashboard' | 'api' | 'tool';
 }

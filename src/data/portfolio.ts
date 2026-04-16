@@ -52,39 +52,14 @@ export const portfolioData: PortfolioData = {
         "Modern e-commerce frontend with product listings, dynamic routing, and responsive layouts.",
       longDescription:
         "Developed a modern e-commerce frontend using React.js with dynamic routing and reusable UI components. Implemented responsive layouts using Tailwind CSS and built reusable UI components using shadcn/ui.",
-      image: "/images/projects/ecommerce.jpg",
+      image: "/ecommerce.png",
       tags: ["React.js", "TanStack Router", "Tailwind CSS", "shadcn/ui"],
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://ecoomerce-website-jtvt.vercel.app/",
+      githubFrontend: "https://github.com/Nishu678/Ecoomerce-website",
+      // githubBackend: "https://mern-stack-project-3-eqpu.onrender.com",
+      githubBackend: "https://github.com/Nishu678/mern-stack-project",
       featured: true,
       category: "web",
-    },
-    {
-      id: "metrocare-platform",
-      title: "MetroCare Healthcare Platform",
-      description:
-        "Healthcare platform with patient registration, appointments, and admin dashboard.",
-      longDescription:
-        "Built the frontend architecture including patient registration, appointment management, and admin dashboard. Implemented role-based authentication workflows and dynamic UI components.",
-      image: "/images/projects/healthcare.jpg",
-      tags: ["React.js", "Context API", "React Router"],
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: true,
-      category: "dashboard",
-    },
-    {
-      id: "hrms-dashboard",
-      title: "HRMS Dashboard",
-      description:
-        "Employee management dashboard with data-driven insights and real-time updates.",
-      longDescription:
-        "Created a responsive HRMS dashboard with employee management features and real-time data integration using REST APIs and React.js.",
-      image: "/images/projects/hrms.jpg",
-      tags: ["React.js", "REST APIs", "Tailwind CSS"],
-      demoUrl: "#",
-      githubUrl: "#",
-      category: "dashboard",
     },
     {
       id: "pokemon-explorer",
@@ -93,12 +68,40 @@ export const portfolioData: PortfolioData = {
         "Interactive Pokémon explorer with optimized search and API caching.",
       longDescription:
         "Built a Pokémon explorer application with optimized search using debounce, pagination, and API caching. Designed responsive UI with reusable components and detailed data cards.",
-      image: "/images/projects/pokemon.jpg",
+      image: "/pokemon.png",
       tags: ["React.js", "Axios", "Tailwind CSS"],
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://pokemon-card-beta.vercel.app/",
+      // githubUrl: "https://github.com/Nishu678/pokemon-card",
+      githubFrontend: "https://github.com/Nishu678/pokemon-card",
       category: "web",
     },
+    {
+      id: "hrms-dashboard",
+      title: "HRMS Dashboard",
+      description:
+        "Employee management dashboard with data-driven insights and real-time updates.",
+      longDescription:
+        "Created a responsive HRMS dashboard with employee management features and real-time data integration using REST APIs and React.js.",
+      image: "/hrms.png",
+      tags: ["Next.js", "REST APIs", "Tailwind CSS"],
+      demoUrl: "https://unifygroup.in/hrms/login",
+      githubFrontend: "#",
+      category: "dashboard",
+    },
+    // {
+    //   id: "metrocare-platform",
+    //   title: "MetroCare Healthcare Platform",
+    //   description:
+    //     "Healthcare platform with patient registration, appointments, and admin dashboard.",
+    //   longDescription:
+    //     "Built the frontend architecture including patient registration, appointment management, and admin dashboard. Implemented role-based authentication workflows and dynamic UI components.",
+    //   image: "/images/projects/healthcare.jpg",
+    //   tags: ["React.js", "Context API", "React Router"],
+    //   demoUrl: "#",
+    //   githubUrl: "#",
+    //   featured: true,
+    //   category: "dashboard",
+    // },
   ],
 
   experience: [
