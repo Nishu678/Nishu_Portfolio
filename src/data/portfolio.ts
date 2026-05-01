@@ -47,13 +47,13 @@ export const portfolioData: PortfolioData = {
   projects: [
     {
       id: "ecommerce-app",
-      title: "E-Commerce Web Application",
+      title: "E-Commerce Web Application(MERN Stack)",
       description:
-        "Modern e-commerce frontend with product listings, dynamic routing, and responsive layouts.",
+        "Modern e-commerce frontend with product listings, dynamic routing, and responsive layouts with admin dashboard management.",
       longDescription:
-        "Developed a modern e-commerce frontend using React.js with dynamic routing and reusable UI components. Implemented responsive layouts using Tailwind CSS and built reusable UI components using shadcn/ui.",
+        "Developed a modern e-commerce frontend using React.js with dynamic routing and reusable UI components. Implemented responsive layouts using Tailwind CSS and built reusable UI components using shadcn/ui library. Integrated a user-friendly admin dashboard for product management.",
       image: "/ecommerce.png",
-      tags: ["React.js", "TanStack Router", "Tailwind CSS", "shadcn/ui"],
+      tags: ["React.js", "TanStack Router", "Tailwind CSS", "shadcn/ui", "Node.js", "MongoDB", "Express.js"],
       demoUrl: "https://ecoomerce-website-jtvt.vercel.app/",
       githubFrontend: "https://github.com/Nishu678/Ecoomerce-website",
       // githubBackend: "https://mern-stack-project-3-eqpu.onrender.com",
