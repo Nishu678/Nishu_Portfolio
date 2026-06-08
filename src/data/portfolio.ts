@@ -88,20 +88,20 @@ export const portfolioData: PortfolioData = {
       githubFrontend: "#",
       category: "dashboard",
     },
-    // {
-    //   id: "metrocare-platform",
-    //   title: "MetroCare Healthcare Platform",
-    //   description:
-    //     "Healthcare platform with patient registration, appointments, and admin dashboard.",
-    //   longDescription:
-    //     "Built the frontend architecture including patient registration, appointment management, and admin dashboard. Implemented role-based authentication workflows and dynamic UI components.",
-    //   image: "/images/projects/healthcare.jpg",
-    //   tags: ["React.js", "Context API", "React Router"],
-    //   demoUrl: "#",
-    //   githubUrl: "#",
-    //   featured: true,
-    //   category: "dashboard",
-    // },
+    {
+      id: "Travel-website",
+      title: "Travel Website",
+      description:
+        "Travel website with clean and modern UI/UX design.",
+      longDescription:
+        "A modern and responsive Travel Website built with Next.js and Tailwind CSS. The entire UI/UX design was created from scratch without using any AI design tools, focusing on a clean layout, smooth user experience, and visually appealing travel destinations.",
+      image: "/travel.png",
+      tags: ["Next.js", "Tailwind CSS", "shadcn/ui", "UI Components"],
+      demoUrl: "#",
+      githubFrontend: "https://github.com/Nishu678/travel-website",
+      featured: false,
+      category: "web",
+    },
   ],
 
   experience: [
