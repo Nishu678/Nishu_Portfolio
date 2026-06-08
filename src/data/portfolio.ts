@@ -97,7 +97,7 @@ export const portfolioData: PortfolioData = {
         "A modern and responsive Travel Website built with Next.js and Tailwind CSS. The entire UI/UX design was created from scratch without using any AI design tools, focusing on a clean layout, smooth user experience, and visually appealing travel destinations.",
       image: "/travel.png",
       tags: ["Next.js", "Tailwind CSS", "shadcn/ui", "UI Components"],
-      demoUrl: "#",
+      demoUrl: "https://travel-website-eta-one-38.vercel.app/dashboard",
       githubFrontend: "https://github.com/Nishu678/travel-website",
       featured: false,
       category: "web",
