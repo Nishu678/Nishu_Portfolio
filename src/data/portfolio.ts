@@ -76,6 +76,30 @@ export const portfolioData: PortfolioData = {
       category: "web",
     },
     {
+      id: "quiz-app",
+      title: "Quizzy AI",
+      description:
+        "AI-powered quiz platform that generates custom quizzes from user prompts with configurable difficulty and time limits.",
+
+      longDescription:
+        "Built a full-stack AI-powered quiz application using Next.js, MongoDB, and REST APIs. Users can generate personalized quizzes by providing a topic prompt, difficulty level, number of questions, and time limit. Integrated Groq AI to dynamically create high-quality quiz questions and answers in real time. Implemented secure backend APIs, quiz management, score tracking, timer-based assessments, and responsive UI using reusable components. Leveraged MongoDB for storing quizzes, user attempts, and performance data.",
+
+      image: "/quizzy.png",
+
+      tags: [
+        "Next.js",
+        "MongoDB",
+        "REST API",
+        "Groq AI",
+        "Axios",
+        "Tailwind CSS"
+      ],
+
+      demoUrl: "https://quizzy-coral-gamma.vercel.app/",
+      githubFrontend: "https://github.com/Nishu678/quizzy",
+      category: "web",
+    },
+    {
       id: "hrms-dashboard",
       title: "HRMS Dashboard",
       description:
@@ -151,7 +175,8 @@ export const portfolioData: PortfolioData = {
     },
     {
       name: "GitHub",
-      url: "https://github.com/Nishu2375",
+      url: "https://github.com/Nishu678",
+      // url: "https://github.com/Nishu2375",
       icon: "github",
       ariaLabel: "View GitHub Profile",
     },
